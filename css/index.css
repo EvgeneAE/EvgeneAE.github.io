@@ -1,0 +1,156 @@
+* {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+header {
+  margin: -10px 10px;
+  height: 270px;
+}
+ul.bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 90px;
+  overflow: hidden;
+  background-color: #7caa87;
+  position: sticky;
+  top: 0;
+  border-radius: 20px;
+}
+
+ul.bar li {
+  float: left;
+}
+
+ul.bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 33px;
+  text-decoration: none;
+}
+
+ul.bar li a:hover:not(.active) {
+  background-color: rgb(50, 101, 104);
+}
+
+ul.bar li a.active {
+  background-color: #04aa6d;
+}
+
+ul.bar li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.bar li.right,
+  ul.bar li {
+    float: none;
+  }
+}
+li {
+  padding: 0 55px;
+}
+header img {
+  width: 100%;
+  height: 240px;
+  border-radius: 23px;
+}
+
+body {
+  background-color: antiquewhite;
+  /* width: 900px;
+  padding: 0 15%; */
+  /* background-color: antiquewhite; */
+}
+table {
+  width: 100%;
+  /* border: 10px solid rgb(108, 168, 35);
+    border-radius: 25px; */
+}
+td {
+  /* border: 10px ; */
+  border-radius: 25px;
+  padding: 0 35px;
+}
+
+footer {
+  text-align: center;
+  background-color: #e4e7c9;
+  border-radius: 30px;
+}
+
+td p {
+  text-align: justify;
+}
+
+h1 {
+  font-family: "IBM Plex Mono", monospace;
+  position: relative;
+  top: -106px;
+  left: 20px;
+  color: #e4e7c9;
+}
+#contact {
+  text-align: center;
+}
+.text {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0 15%;
+}
+/* .page {
+  width: 800px;
+  padding: 0 15%;
+  background-color: antiquewhite;
+
+} */
+/* .foto {
+  width: 220px;
+}
+.foto2 {
+  width: 220px; */
+/* } */
+/* .foto :hover img {
+    position: absolute;
+
+    width: 600px;
+} */
+
+/* img {
+  transition: transform 0.25s;
+}
+.foto:hover img {
+  transform: scale(2.1);
+} */
+/* 
+.foto2 {
+  overflow: hidden;
+}
+.foto2:hover img {
+  transform: scale(2.1);
+}
+ */
+
+@media (min-width: 575.98px) {
+  body {
+    padding: -10px calc(20% - 270px);
+  }
+}
+@media (min-width: 767.98px) {
+  body {
+    padding: -10px calc(20% - 360px);
+  }
+}
+@media (min-width: 991.98px) {
+  body {
+    padding: -10px calc(20% - 480px);
+  }
+  table {
+    width: 100%;
+  }
+}
+@media (min-width: 1199.98px) {
+  body {
+    padding: -10px calc(20% - 590px);
+  }
+}
